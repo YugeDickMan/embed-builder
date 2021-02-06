@@ -19,7 +19,7 @@
     <meta property="og:title" content="<%= options.embedTitle %>" />
     <meta property="og:description" content="<%= options.embedDesc %>" />
     <meta property="og:image" content="<%= options.embedImage %>" />
-    <meta name="theme-color" content="<%= options.embedCol %>" />
+    <meta name="theme-color" content="#<%= options.embedCol %>" />
     <meta property="og:type" content="website" />
     <% if (options.bigImg == "true") { %>
     <meta name="twitter:card" content="summary_large_image" />
@@ -32,7 +32,7 @@
       <li>title - Sets the embed title!</li>
       <li>desc - Sets the embed desc!</li>
       <li>image - Sets the embed img!</li>
-      <li>hex - Sets the embed color (HEX)!</li>
+      <li>col - Sets the embed color (HEX)!</li>
       <li>bigImg - true | false!</li>
     </ul>
     <br />
@@ -41,7 +41,7 @@
       <li>http://current-website-url.com/?title=Testing</li>
       <li>http://current-website-url.com/?desc=Testing</li>
       <li>http://current-website-url.com/?img=imageURL</li>
-      <li>http://current-website-url.com/?col=hexColor</li>
+      <li>http://current-website-url.com/?col=FFFFFF</li>
       <li>http://current-website-url.com/?bigImg=true</li>
     </ul>
   </body>

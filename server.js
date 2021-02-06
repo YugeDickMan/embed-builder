@@ -16,7 +16,7 @@ server.get("/", (req, res) => {
   /* Embed Description */
   const embedDesc = req.query.desc ? req.query.desc : "";
   /* Embed Color */
-  const embedCol = req.query.hex ? req.query.hex : "";
+  const embedCol = req.query.col ? req.query.col : "";
 
   /* Rendering */
   const options = {
