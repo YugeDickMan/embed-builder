@@ -29,6 +29,6 @@ server.get("/", (req, res) => {
   return res.render("index", { options: options });
 });
 
-server.listen(3000, () => {
+server.listen(process.env.PORT || 8080, () => {
   console.log("Server Started!");
 });
