@@ -1,0 +1,23 @@
+{
+  "name": "embed-builder",
+  "version": "1.0.0",
+  "description": "An embed builder for Discord, Facebook, Twitter, etc.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "embed-builder",
+    "embeds",
+    "embed",
+    "discordembed",
+    "discord"
+  ],
+  "author": "XoAlone",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
