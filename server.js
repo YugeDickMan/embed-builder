@@ -14,7 +14,7 @@ server.get("/", (req, res) => {
   /* Embed Big Image Option */
   const bigImg = req.query.bigImg ? req.query.bigImg : "";
   /* Embed Description */
-  const embedDesc = req.query.desc ? req.query.desc : "Made by XoAlone#0001";
+  const embedDesc = req.query.desc ? req.query.desc : "";
   /* Embed Color */
   const embedCol = req.query.col ? req.query.col : "";
 
