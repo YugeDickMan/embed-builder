@@ -6,4 +6,4 @@
 Instructions are on the site!
 
 # Preview
-![Preview](../Images/preview.png)
+![Preview](./Images/preview.png)
