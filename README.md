@@ -4,3 +4,6 @@
 
 # How Do I Use It?
 Instructions are on the site!
+
+# Preview
+![Preview](../Images/preview.png)
